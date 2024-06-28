@@ -1,0 +1,206 @@
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Colegio Tecnico Albert Einstein</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: "Poppins", sans-serif;
+			background-image: url(https://static.vecteezy.com/system/resources/previews/002/289/261/non_2x/school-education-seamless-pattern-education-symbols-sketch-backdrop-with-school-supplies-back-to-school-icons-doodle-line-art-notebook-background-vector.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			height: 100vh;
+		}
+
+		header {
+			background-color: #1C2023;
+			padding: 0;
+			text-align: center;
+			position: fixed;
+			top: 0;
+			z-index: 1000;
+			width: 100%;
+		}
+
+		header h1 {
+			color: white;
+			margin: 0;
+			padding: 20px 0;
+		}
+
+		nav {
+			display: flex;
+			align-items: center;
+			padding: 10px;
+			justify-content: center;
+		}
+
+		nav ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			display: flex;
+			gap: 15px;
+		}
+
+		nav ul li {
+			display: inline;
+		}
+
+		nav ul li a {
+			color: #0D9FD9;
+			text-decoration: none;
+		}
+
+		.container {
+			background-color: white;
+			padding: 2rem;
+			margin: 1rem auto;
+			max-width: 1000px;
+			margin-top: 255px;
+			/* 180px (original margin-top) + 75px (desired margin) */
+			border-radius: 8px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+
+		.identity-text {
+			color: black;
+			text-align: center;
+			font-weight: bold;
+			margin: 5px;
+			font-size: 1.5rem;
+			/* Tamaño igual al de los otros títulos */
+		}
+
+		.content p {
+			color: #666;
+			line-height: 1.6;
+			text-align: center;
+		}
+
+		footer {
+			background-color: #1C2023;
+			color: #F28749;
+			padding: 0;
+			text-align: center;
+			position: unset;
+		}
+
+		.about-us,
+		.mission-statement,
+		.objectives {
+			text-align: center;
+		}
+
+		.about-us h2,
+		.mission-statement h2,
+		.objectives h2 {
+			color: #555;
+			margin-bottom: 10px;
+			font-size: 1.5rem;
+			/* Tamaño de fuente para los títulos */
+		}
+
+		.about-us p,
+		.mission-statement p,
+		.objectives p {
+			color: #666;
+			line-height: 1.6;
+			text-align: justify;
+			/* Ajustar el texto justificado */
+		}
+
+		.about-us img {
+			max-width: 100%;
+			height: auto;
+			margin-top: 20px;
+			border-radius: 8px;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<a href="index.html"><img src="imagenes/file.png" height="120px" width="120px"></a>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="quienes somos.html">Quienes Somos</a></li>
+				<li><a href="Que Ofrecemos.html">Que Ofrecemos</a></li>
+				<li><a href="contacto.html">Contactanos</a></li>
+				<li><a href="cursos.html">Cursos</a></li>
+				<li><a href="biblioteca.html">Biblioteca digital</a></li>
+			</ul>
+		</nav>
+		<h1>Nuestro Colegio</h1>
+	</header>
+	<div class="container">
+		<div class="identity-text">
+			Identidad
+		</div>
+		<section class="content">
+			<p>El Colegio T.A.E. somos un colegio con responsabilidad social, la cual consta con treinta y ocho años de
+				experiencia en los niveles de educación Parvularia, básica y media técnica.</p>
+		</section>
+		<section class="about-us">
+			<h2>Nuestra Visión</h2>
+			<p>
+				Ser un referente educativo que forma personas íntegras, creativas y comprometidas con su entorno,
+				preparadas para enfrentar los desafíos del futuro con conocimiento, valores y habilidades.
+			</p>
+		</section>
+		<section class="mission-statement">
+			<h2>Nuestra Misión</h2>
+			<p>
+				En el Colegio T.A.E., nos comprometemos a proporcionar una educación integral y de calidad, centrada en
+				el desarrollo académico, personal y social de nuestros estudiantes. Nuestra misión se enfoca en:
+			</p>
+			<p>
+				Fomentar el pensamiento crítico y creativo, promoviendo la curiosidad y el amor por el aprendizaje a lo
+				largo de la vida.
+			</p>
+			<p>
+				Desarrollar valores como la responsabilidad, el respeto, la solidaridad y la integridad, preparando a
+				nuestros estudiantes para ser ciudadanos globales y líderes del mañana.
+			</p>
+			<p>
+				Crear un ambiente inclusivo y de apoyo, donde cada estudiante se sienta valorado y capaz de alcanzar su
+				máximo potencial.
+			</p>
+		</section>
+		<section class="objectives">
+			<h2>Objetivos Estratégicos</h2>
+			<p>
+				<b>Innovación Pedagógica:</b> Integrar nuevas tecnologías y metodologías de enseñanza que promuevan el
+				aprendizaje activo y colaborativo.
+			</p>
+			<p>
+				<Capacitación Continua: Ofrecer programas de desarrollo profesional para nuestros docentes y personal
+					administrativo. </p>
+					<p>
+						<b>Participación de Familias:</b>Fomentar una estrecha colaboración con las familias para apoyar
+						el desarrollo integral de los estudiantes.
+					</p>
+					<p>
+						<b> Sostenibilidad y Medio Ambiente:</b> Implementar prácticas sostenibles y educar a los
+						estudiantes sobre la importancia de cuidar nuestro planeta.
+					</p>
+					<p>
+						<b>Evaluación y Mejora Continua:</b> Establecer mecanismos de evaluación para monitorear y
+						mejorar constantemente la calidad educativa y el desempeño institucional.
+					</p>
+		</section>
+	</div>
+	<footer>
+		<h4>&copy; 2024 Proyecto 05. <br> Todos los derechos reservados.</h4>
+        <p>Desarrollo de la plataforma web</p>
+	</footer>
+</body>
+
+</html>
